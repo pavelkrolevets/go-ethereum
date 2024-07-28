@@ -289,6 +289,9 @@ func TestEthClient(t *testing.T) {
 		"TransactionSender": {
 			func(t *testing.T) { testTransactionSender(t, client) },
 		},
+		"Logs": {
+			func(t *testing.T) { testTransactionSender(t, client) },
+		},
 	}
 
 	t.Parallel()
